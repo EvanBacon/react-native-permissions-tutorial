@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "basic-permissions-example",
+    "description": "No description",
+    "slug": "snack-ry3zxzYTX",
+    "privacy": "unlisted",
+    "sdkVersion": "30.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "loading": {
+      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4", "otf", "xml"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "Allow Expo experiences to access your calendar",
+        "NSCameraUsageDescription": "Expo uses your camera to scan project QR codes. Expo experiences you open may use the camera with the Expo camera API.",
+        "NSContactsUsageDescription": "Allow Expo experiences to access your contacts",
+        "NSLocationWhenInUseUsageDescription": "Allow Expo experiences to use your location",
+        "NSMicrophoneUsageDescription": "Allow Expo experiences to access your microphone",
+        "NSMotionUsageDescription": "Allow Expo experiences to access your device's accelerometer",
+        "NSPhotoLibraryAddUsageDescription": "Give Expo experiences permission to save photos",
+        "NSPhotoLibraryUsageDescription": "Give Expo experiences permission to access your photos",
+        "NSRemindersUsageDescription": "Allow Expo experiences to access your reminders"
+      }
+    }
+  }
+}
